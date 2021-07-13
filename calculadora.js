@@ -44,6 +44,7 @@ while (true) {
     default: {
       alert("No has seleccionado una opción válida.");
       break;
+      calculadora();
     }
   }
 break;
