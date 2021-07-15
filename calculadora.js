@@ -8,7 +8,7 @@ while (true) {
       x = Number(prompt("Escribe el primer sumando"));
       z = Number(prompt("Ahora escribe el segundo sumando"));
       let resultadoSuma = x + z;
-      alert("Tú resultado es " + resultadoSuma);
+      if (isNaN(resultadoSuma)) {alert("No has dado un valor numérico.")} else {alert("Tú resultado es " + resultadoSuma);}
       calculadora();
       break;
     }
@@ -16,7 +16,7 @@ while (true) {
       x = Number(prompt("Escribe el valor del minuendo"));
       z = Number(prompt("Ahora escribe el valor del sustraendo"));
       let resultadoResta = x - z;
-      alert("Tú resultado es " + resultadoResta);
+      if (isNaN(resultadoResta)) {alert("No has dado un valor numérico.")} else {alert("Tú resultado es " + resultadoResta);}
       calculadora();
       break;
     }
@@ -24,7 +24,7 @@ while (true) {
       x = Number(prompt("Especifica tu multiplicando"));
       z = Number(prompt("Ahora especifica tu multilpicador"));
       let resultadoMultiplicar = x * z;
-      alert("Tú resultado es " + resultadoMultiplicar);
+      if (isNaN(resultadoMultiplicar)) {alert("No has dado un valor numérico.")} else {alert("Tú resultado es " + resultadoMultiplicar);}
       calculadora();
       break;
     }
@@ -32,7 +32,7 @@ while (true) {
       x = Number(prompt("Especifica tu divisor"));
       z = Number(prompt("Ahora especifica tu dividendo"));
       let resultadoDivision = x / z;
-      alert("Tú resultado es " + resultadoDivision);
+      if (isNaN(resultadoDivision)) {alert("No has dado un valor numérico.")} else {alert("Tú resultado es " + resultadoDivision);}
       calculadora();
       break;
     }
