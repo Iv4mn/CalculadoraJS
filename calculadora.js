@@ -1,5 +1,4 @@
-function calculadora() {
-let x = 0, z = 0;
+function calculadora(x, z) {
 
 while (true) {
 
